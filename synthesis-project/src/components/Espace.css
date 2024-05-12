@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #97cae7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #117ee3;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.trainer-name {
+  font-weight: bold;
+  color: #fff;
+}
+
+.deconnexion {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 10px;
+  background-color: #e6efff;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  height: 800px;
+}
+
+.menu-button {
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-button:hover {
+  background-color: #f2f2f2;
+}
+
+.content {
+  margin-top: 70px;
+  position: relative;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+}
+
+.ofppt-paragraph {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  width: 900px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  );
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 0px;
+}
+
+.formation {
+  display: flex;
+  width: fit-content;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+.collab,
+.Places,
+.Pub,
+.Métiers,
+.Etab {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+}

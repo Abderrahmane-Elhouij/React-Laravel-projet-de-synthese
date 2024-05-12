@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.background-img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-form-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.form-group h1 {
+  padding: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+hr {
+  width: 60px;
+  border: #0069d9 solid;
+  margin: 0 auto;
+}
+
+.input-container input {
+  width: 300px;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #adadad;
+  background: none;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+#Role {
+  width: 220px;
+  height: 40px;
+  margin-bottom: 45px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #adadad;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  width: 48%;
+  padding: 10px;
+  background-color: #117ee3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 45px;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
