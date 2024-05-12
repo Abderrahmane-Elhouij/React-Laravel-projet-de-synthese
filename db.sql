@@ -29,10 +29,10 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `administrateur` (
   `idAdmin` int(11) NOT NULL,
-  `nom` int(100) NOT NULL,
-  `prenom` int(100) NOT NULL,
-  `email` int(100) NOT NULL,
-  `password` int(100) NOT NULL
+  `nom` varchar(100) NOT NULL,
+  `prenom` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------

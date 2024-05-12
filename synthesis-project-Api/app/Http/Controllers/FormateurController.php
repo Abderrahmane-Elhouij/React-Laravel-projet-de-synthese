@@ -39,13 +39,13 @@ class FormateurController extends Controller
             'password' => 'required|string|min:8',
         ]);
 
-        $hashedPassword = Hash::make($validatedData['password']);
+        //$hashedPassword = Hash::make($validatedData['password']);
 
         $formateur = new Formateur([
             'nom' => $validatedData['nom'],
             'prenom' => $validatedData['prenom'],
             'email' => $validatedData['email'],
-            'password' => $hashedPassword,
+            'password' => $validatedData['password'],
         ]);
 
         $formateur->save();
